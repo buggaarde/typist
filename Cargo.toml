@@ -1,0 +1,17 @@
+[package]
+name = "typist"
+version = "0.0.1"
+authors = ["Simon Bugge Siggaard <simon@siggaard.io>"]
+edition = "2018"
+license = "MIT"
+description = "Keyboard layout builders and optimizers for your personalized perfect layout"
+homepage = "https://github.com/buggaarde/typist"
+repository = "https://github.com/buggaarde/typist"
+readme = "README.md"
+include = [
+	"**/*.rs",
+	"Cargo.toml",
+	"README.md"
+]
+
+[dependencies]
